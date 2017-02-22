@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="lib" path="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.3.RELEASE/f66f40abfe733621768eae0515ea0dc90bb49753/spring-web-4.3.3.RELEASE.jar" sourcepath="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.3.RELEASE/f963d559a56e848d01f973e4eb8c2428b6d8a6cd/spring-web-4.3.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/3.1.2/224f03afd2521c6c94632f566beb1bb5ee32cf07/metrics-core-3.1.2.jar" sourcepath="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/3.1.2/25177c6da71f42d7934040a2f5608e3a5f81464c/metrics-core-3.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-annotation/3.1.2/7ee8e9afe8e15f921a3bc9f8d4b1109b58b63d46/metrics-annotation-3.1.2.jar" sourcepath="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-annotation/3.1.2/c3d7ed9375c6917c71c91eed114c365dad3502a5/metrics-annotation-3.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.1.RELEASE/670ebd283098aa2d8a397af84fbe6ea152a4d8fa/spring-boot-1.5.1.RELEASE.jar" sourcepath="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.1.RELEASE/968ad62e3e8cd296a6149678e6b09cc3b1030fb0/spring-boot-1.5.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.1.RELEASE/251d960da2d5adfd55cf0281fcdfa69ab525a36d/spring-boot-autoconfigure-1.5.1.RELEASE.jar" sourcepath="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.1.RELEASE/2353af62fb55e5c78a649e115b81a8916d99632a/spring-boot-autoconfigure-1.5.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.1.RELEASE/db60078355dbe57b3ff5efcbf7b411fb5ae75306/spring-boot-autoconfigure-1.4.1.RELEASE.jar" sourcepath="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.1.RELEASE/fe9f26d0e9d8ecfdc65310abd1973655636fef4e/spring-boot-autoconfigure-1.4.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.1.RELEASE/77e66522f61f02d2597da1ed8bf781ed796a2535/spring-boot-1.4.1.RELEASE.jar" sourcepath="C:/Users/nanuganti/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.1.RELEASE/280436acbd899db30e116434c87475db35497085/spring-boot-1.4.1.RELEASE-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

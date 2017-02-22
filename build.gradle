@@ -1,0 +1,46 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'helloworld-metrics'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+configurations.all {
+    exclude group: "ch.qos.logback", module: "logback-classic"
+}
+
+configurations {
+runtime.exclude group:"ch.qos.logback", module: "logback-classic"
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+	//compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.2'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-log4j2'
+    compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('com.jayway.jsonpath:json-path')
+    compile('com.ryantenney.metrics:metrics-spring:3.0.0-RC1')
+    
+    compile group: 'com.ryantenney.metrics', name: 'metrics-spring', 	version: '3.1.3'
+	compile group: 'org.coursera', name: 'dropwizard-metrics-datadog', version: '1.1.6'
+	compile group: 'org.coursera', name: 'metrics-datadog', version: '1.1.6'
+    
+}

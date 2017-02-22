@@ -1,0 +1,6 @@
+server:  
+  port: 8085
+  
+metric:
+  polling:
+    duration: 1
